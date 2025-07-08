@@ -1,0 +1,56 @@
+su
+[Enter password]
+
+apt update
+apt upgrade
+
+apt install g++ python3 cmake ninja-build git
+apt install ccache
+apt install g++ python3
+apt install g++ python2
+python3 -m pip install --user cppyy
+apt install gir1.2-goocanvas-2.0 python3-gi python3-gi-cairo python3-pygraphviz gir1.2-gtk-3.0 ipython3  
+apt install g++ python3 python3-dev pkg-config sqlite3 cmake
+apt install python3-setuptools git
+apt install qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools
+apt install gir1.2-goocanvas-2.0 python3-gi python3-gi-cairo python3-pygraphviz gir1.2-gtk-3.0 ipython3 
+apt install openmpi-bin openmpi-common openmpi-doc libopenmpi-dev
+apt install mercurial unzip
+apt install gdb valgrind 
+apt install clang-format
+apt install doxygen graphviz imagemagick
+apt install texlive texlive-extra-utils texlive-latex-extra texlive-font-utils dvipng latexmk
+apt install python3-sphinx dia 
+apt install gsl-bin libgsl-dev libgslcblas0
+apt install tcpdump
+apt install sqlite sqlite3 libsqlite3-dev
+apt install libxml2 libxml2-dev
+ apt install cmake libc6-dev libc6-dev-i386 libclang-dev llvm-dev automake python3-pip
+python3 -m pip install --user cxxfilt
+apt install libgtk-3-dev
+apt install vtun lxc uml-utilities
+apt install libxml2 libxml2-dev libboost-all-dev
+
+pip install cppyy
+
+#Download and Unzip the latest ns-allinone file
+
+#Go to the respective location in terminal
+cd ns-allinone-3.38/
+
+#Build the files
+./build.py
+
+
+#Go to ns-allinone-3.38/ns-3.38
+cd ns-3.38
+
+#Compile and build all files
+./ns3 configure --enable-examples --enable-tests --enable-python-bindings
+./ns3 build
+
+
+
+
+ 
+
