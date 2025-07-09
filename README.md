@@ -13,16 +13,18 @@ MPTCP and RFC 9438 Simulation in NS-3 for D2D Communication
           
 
 📡 3. Simulation Parameters
-        | Parameter         | Value                       |
-        | ----------------- | --------------------------- |
-        | TCP               | MPTCP, RFC 9438             |
-        | WiFi Standard     | 802.11n                     |
-        | Clusters          | 10                          |
-        | Nodes per Cluster | 20                          |
-        | MaxBytes          | Unlimited (`0`)             |
-        | Simulation Time   | 1–100 seconds               |
-        | Node Speed        | 0.5 – 2.0 m/s               |
-        | Output            | NetAnim, FlowMonitor, PyVis |
+
+        | Parameter           | Value                         |
+        |---------------------|-------------------------------|
+        | TCP Protocol        | MPTCP, RFC 9438               |
+        | WiFi Standard       | 802.11n                       |
+        | Number of Clusters  | 10                            |
+        | Nodes per Cluster   | 20                            |
+        | MaxBytes            | Unlimited (0)                 |
+        | Simulation Time     | 1 to 100 seconds              |
+        | Node Speed          | 0.5 m/s, 1 m/s, 1.5 m/s, 2 m/s |
+        | Output Visualization| NetAnim, FlowMonitor, PyVis   |
+
 
 
 📈 4. Key Metrics Evaluated
