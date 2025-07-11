@@ -53,4 +53,13 @@ To run the simulation:
 
 **PyVis**: Visual graph of node interactions (cluster-level views)
 
+---
+
+## 📊 6. Simulation Result Graphs
+
+Below are the performance graphs generated from FlowMonitor and PyVis analysis.
+
+<img width="866" height="521" alt="Output" src="https://github.com/user-attachments/assets/71606798-513f-4bc4-b632-ebb32ff8c51f" />
+
+
 
